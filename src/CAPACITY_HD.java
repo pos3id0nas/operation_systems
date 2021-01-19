@@ -105,7 +105,7 @@ public class CAPACITY_HD extends JFrame{
                 int PlaisioSelida = (int) ((PAGE*((PLAISIO+1)*Bit))/MBTOB);
                 double MBa=((double)PlaisioSelida/(RAAMCAP*KBTOB))*100;
                 if(MBa < RAMPERCEN)
-                {String MBaS = String.valueOf(MBa); LIMIT[i] = MBaS.substring(0,4)+"   IS OK!!";}
+                {String MBaS = String.valueOf(MBa); LIMIT[i] = MBaS+"   IS OK!!";}
                 else {String MBaS = String.valueOf(MBa); LIMIT[i] = MBaS+"   IS NOT OK!!";}
 
                 hd = hd*2;

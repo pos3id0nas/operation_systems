@@ -107,8 +107,8 @@ public class CAPCITY extends JFrame {
                 double PSCAP = (int) SQUAREPAGE*((PLAISIO+1)*Bit)/GBTOB;
                 double PSCAP2 = (PSCAP/R)*100;
                 if(PSCAP2 < RAMPERCEN)
-                {String PSCAPS = String.valueOf(PSCAP2); LIMIT[i] = PSCAPS.substring(0,5)+"   IS OK!!";}
-                else {String MBaS = String.valueOf(PSCAP2); LIMIT[i] = MBaS.substring(0,5)+"   IS NOT OK!!";}
+                {String PSCAPS = String.valueOf(PSCAP2); LIMIT[i] = PSCAPS+"   IS OK!!";}
+                else {String MBaS = String.valueOf(PSCAP2); LIMIT[i] = MBaS+"   IS NOT OK!!";}
                 R = R*2;
             }
 
