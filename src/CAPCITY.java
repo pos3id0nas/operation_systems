@@ -71,7 +71,7 @@ public class CAPCITY extends JFrame {
                 }
             } catch (ArithmeticException b) {
                 System.out.println(b);
-               JOptionPane.showMessageDialog(null, "SOMETHING WENT WRONG AT HD!!", "ERROR", JOptionPane.PLAIN_MESSAGE);
+               JOptionPane.showMessageDialog(null, "SOMETHING WENT WRONG AT HD!!.", "ERROR", JOptionPane.PLAIN_MESSAGE);
             }
 
             try {
