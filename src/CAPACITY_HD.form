@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="CAPACITY_HD">
+  <grid id="27dc6" binding="RAM" layout-manager="GridLayoutManager" row-count="6" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="850" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-10657187"/>
+      <maximumSize width="850" height="150"/>
+      <minimumSize width="850" height="150"/>
+      <preferredSize width="850" height="150"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="a3078" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14"/>
+          <foreground color="-1"/>
+          <text value="Εχουμε RAM Μεγέθους"/>
+        </properties>
+      </component>
+      <component id="19e7f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14"/>
+          <foreground color="-1"/>
+          <text value="Που μπορεί να διαθέσει  το "/>
+        </properties>
+      </component>
+      <component id="705bd" class="javax.swing.JTextField" binding="RAMCAP">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="25"/>
+            <preferred-size width="50" height="25"/>
+            <maximum-size width="50" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="14"/>
+          <name value=""/>
+          <requestFocusEnabled value="true"/>
+        </properties>
+      </component>
+      <component id="ab23c" class="javax.swing.JTextField" binding="RAMPERCENT">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="25"/>
+            <preferred-size width="50" height="25"/>
+            <maximum-size width="50" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="14"/>
+        </properties>
+      </component>
+      <component id="7a883" class="javax.swing.JComboBox" binding="RAMCAPCHOICE">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="25"/>
+            <preferred-size width="50" height="25"/>
+            <maximum-size width="50" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="14"/>
+          <foreground color="-14714437"/>
+          <model>
+            <item value="TB"/>
+            <item value="GB"/>
+            <item value="MB"/>
+            <item value="KB"/>
+            <item value="B"/>
+          </model>
+        </properties>
+      </component>
+      <component id="484b5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14"/>
+          <foreground color="-262913"/>
+          <text value="% της RAM σε ΠΣ"/>
+        </properties>
+      </component>
+      <component id="5f915" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14"/>
+          <foreground color="-1"/>
+          <text value="Και Λειτουργικό Σύστημα Με Μέγεθος Πλαισίου / Σελίδας"/>
+        </properties>
+      </component>
+      <component id="95163" class="javax.swing.JTextField" binding="OSPSCAP">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="25"/>
+            <preferred-size width="50" height="25"/>
+            <maximum-size width="50" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="14"/>
+        </properties>
+      </component>
+      <component id="a51b6" class="javax.swing.JComboBox" binding="OSPSCAPCHOICE">
+        <constraints>
+          <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="25"/>
+            <preferred-size width="50" height="25"/>
+            <maximum-size width="50" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="14"/>
+          <foreground color="-14714437"/>
+          <model>
+            <item value="TB"/>
+            <item value="GB"/>
+            <item value="MB"/>
+            <item value="KB"/>
+            <item value="B"/>
+          </model>
+        </properties>
+      </component>
+      <component id="ca843" class="javax.swing.JButton" binding="CALCULATEButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="180" height="25"/>
+            <preferred-size width="180" height="25"/>
+            <maximum-size width="180" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <foreground color="-14714437"/>
+          <text value="CALCULATE..."/>
+        </properties>
+      </component>
+      <grid id="90e31" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10657187"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="14f75" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10657187"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="2ca62" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10657187"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="e50b7" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10657187"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
