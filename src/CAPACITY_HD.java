@@ -132,7 +132,7 @@ public class CAPACITY_HD extends JFrame{
                 int PAGE = (int) Math.pow(2,(HDLOG - LOGOSR));
                 double PlaisioSelida = (int) ((PAGE*((PLAISIO+1)*Bit))/DEVINE);
                 double MBa=(PlaisioSelida/(RAAMCAP*KBTOB))*100;
-                JOptionPane.showMessageDialog(null, "HD"+hd+"PLAISIO : "+PLAISIO+"\nLOGHDR :"+LOGHDR+" -  LOGOSR :"+LOGOSR+"\nPAGE :"+PAGE+"\n HDLOG :" +HDLOG+" - LOGOSR :"+LOGOSR+"\n PLAISIOSELIDA :"+PlaisioSelida+"\nMBA : "+MBa, "ERROR", JOptionPane.PLAIN_MESSAGE);
+                //JOptionPane.showMessageDialog(null, "HD"+hd+"PLAISIO : "+PLAISIO+"\nLOGHDR :"+LOGHDR+" -  LOGOSR :"+LOGOSR+"\nPAGE :"+PAGE+"\n HDLOG :" +HDLOG+" - LOGOSR :"+LOGOSR+"\n PLAISIOSELIDA :"+PlaisioSelida+"\nMBA : "+MBa, "ERROR", JOptionPane.PLAIN_MESSAGE);
                 if(MBa < RAMPERCEN)
                 {String MBaS = String.valueOf(MBa); LIMIT[i] = MBaS+"   IS OK!!";}
                 else {String MBaS = String.valueOf(MBa); LIMIT[i] = MBaS+"   IS NOT OK!!";}
