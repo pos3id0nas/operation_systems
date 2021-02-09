@@ -7,6 +7,8 @@ public class OperationS extends JFrame {
     private JCheckBox HARDISK;
     private JCheckBox RAM;
     private JButton NEXTButton;
+    private JCheckBox aps;
+    private JLabel APS;
 
     public OperationS(String Title)
     {
@@ -22,9 +24,8 @@ public class OperationS extends JFrame {
                 if(HARDISK.isSelected())
                 {new CAPACITY_HD();}
                 else if(RAM.isSelected())
-                {
-                    new CAPCITY();
-                }
+                {new CAPCITY();}
+                else if(aps.isSelected()){new APSBOX();}
 
             }
         });

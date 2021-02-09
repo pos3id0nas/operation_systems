@@ -93,25 +93,6 @@
           <requestFocusEnabled value="true"/>
         </properties>
       </component>
-      <component id="992a6" class="javax.swing.JComboBox" binding="HDCAPCHOICE">
-        <constraints>
-          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <minimum-size width="50" height="25"/>
-            <preferred-size width="50" height="25"/>
-            <maximum-size width="50" height="25"/>
-          </grid>
-        </constraints>
-        <properties>
-          <foreground color="-14714437"/>
-          <model>
-            <item value="TB"/>
-            <item value="GB"/>
-            <item value="MB"/>
-            <item value="KB"/>
-            <item value="B"/>
-          </model>
-        </properties>
-      </component>
       <component id="bfe94" class="javax.swing.JLabel">
         <constraints>
           <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
@@ -198,6 +179,25 @@
         <properties>
           <foreground color="-14714437"/>
           <text value="CALCULATE..."/>
+        </properties>
+      </component>
+      <component id="992a6" class="javax.swing.JComboBox" binding="HDCAPCHOICE">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="25"/>
+            <preferred-size width="50" height="25"/>
+            <maximum-size width="50" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-14714437"/>
+          <model>
+            <item value="TB"/>
+            <item value="GB"/>
+            <item value="MB"/>
+            <item value="KB"/>
+            <item value="B"/>
+          </model>
         </properties>
       </component>
     </children>
